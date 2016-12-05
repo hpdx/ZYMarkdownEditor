@@ -9,6 +9,7 @@ Features
 - __CodeMap__
 - __CustomTheme__
 - __Grammar highlight__
+
 ------
 ![](http://i1.piimg.com/567571/50cbaa1b515ebff1.gif)
 
