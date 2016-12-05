@@ -5,16 +5,16 @@ ZYMarkdownEditor
 Features
 ==============
 
-- __Only Three Lines __
+- __Only Three Lines__
 - __CodeMap__
 - __CustomTheme__
 - __Grammar highlight__
 
 
-![](http://i1.piimg.com/567571/50cbaa1b515ebff1.gif)
+![ZYMarkdownEditor.gif](http://i1.piimg.com/567571/50cbaa1b515ebff1.gif)
 
 
-`YYText` is a popular framework,you cloud fing it in here[YYText](https://github.com/ibireme/YYText),thanks the author of YYKit;
+`YYText` is a popular framework, you could find it in here[YYText](https://github.com/ibireme/YYText),thanks the author of YYKit;
 
 
 
@@ -44,7 +44,7 @@ Usage
 
 ```
 
-### Customed
+### Custom
 
 - Text color
 - Font
@@ -52,7 +52,7 @@ Usage
 
 __TextColor__
 
-In `ZYMarkdownParser.h`,there are many customed text colors.__If you want to customed some color but not all, you should call method `setColorWithAtomTheme` ,then set your text  colors__.
+In `ZYMarkdownParser.h`,there are many custom text colors.__If you want to custom some color but not all, you should call method `setColorWithAtomTheme` ,then set your text  colors__.
 
 like this :
 ``` objc
@@ -60,7 +60,7 @@ like this :
 ZYMarkdownParser *parser = [ZYMarkdownParser new];
 //set default theme color
 [parser setColorWithAtomTheme];
-//set your customed text color
+//set your custom text color
 parser.listColor = [UIColor greenColor];
 parser.headerTextColor = [UIColor redColor];
 
@@ -81,7 +81,7 @@ parser.headFontSize = 40;
 
 __BackgroundColor or size__
 
-In `ZYMarkdownEditor.m` and `ZYCodeMapView.m` you could set background or size easily,yeah  it's really easy;
+In `ZYMarkdownEditor.m` and `ZYCodeMapView.m` you could set background or size easily, yeah  it's really easy;
 
 
 Installation
